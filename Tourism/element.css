@@ -1,0 +1,160 @@
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.nav {
+    background-color: white;
+    box-shadow: 10px 10px 90px rgb(163, 163, 163);
+    height: 50px;
+
+}
+
+
+.nav1 {
+    text-align: center;
+    margin-left: 300px;
+}
+.laptop{
+    background-image: url(https://img.freepik.com/free-photo/jumbo-jet-flying-sky_23-2150895699.jpg?t=st=1713091392~exp=1713094992~hmac=f786cde8a769d23255e9d32793ae53f54f8452136f751743673b6c8edcf127e1&w=1380);
+    background-size: 100% 100%;
+    height: 655px;
+    background-repeat: no-repeat;
+}
+
+.map{
+margin-top: 60px;
+}
+.footer {
+    color: gray;
+    font-weight: 500;
+    text-align: center;
+    font-style: italic;
+
+}
+
+.foot1 {
+    text-align: center;
+    margin-top: 80px;
+    /* margin-left: 50px;
+    margin-right: 50px; */
+    height: 200px;
+}
+
+
+.footbx {
+    width: 60%;
+    height: 50px;
+    border: 2px solid black;
+    margin-left: 70px;
+    transition: 2s;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.inf{
+    text-decoration: none;
+    color: gray;
+}
+.inf:hover{
+    text-decoration: underline;
+    color: brown;
+}
+
+.footbx1 {
+    width: 60%;
+    height: 50px;
+    background-color: black;
+    margin-left: 70px;
+    margin-right: 50px;
+    transition: 2s;
+    margin-top: 50px;
+}
+
+.footbx:hover {
+    width: 60%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    margin-left: 70px;
+    margin-right: 50px;
+    margin-top: 50px;
+    transition: 2s;
+}
+
+.footbt {
+    text-align: center;
+    padding: 10px;
+    color: black;
+}
+
+.footbt1 {
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+.footbt:hover{
+    color: white;
+}
+.footbt1:hover {
+    width: 60%;
+    height: 50px;
+   color: rgb(160, 195, 196);
+   font-weight: 800;
+   border: 2px solid black;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    transition: 2s;
+    text-decoration: none;
+}
+
+.icon{
+    margin-left: 30px;
+    font-size: 40px;
+    margin-top: 90px;
+    color: black;
+}
+.icon1{
+    margin-left: 60px;
+}
+.icon:hover{
+    color: brown;
+}
+
+@media only screen and (max-width: 771px) {
+    .box2 {
+        margin-top: 30px;
+        height: 500px;
+    }
+
+    .box4 {
+        margin-top: 30px;
+        height: 500px;
+    }
+    .box3 {
+        margin-top: 90px;
+    }
+
+    .sec3-img {
+        width: 100%;
+    }
+
+    .sec3-img1 {
+        width: 100%;
+    }
+
+
+    .footer {
+        margin-top: 80px;
+    }
+
+    .footbx1 {
+        margin-left: 100px;
+    }
+
+    .footbx {
+        margin-left: 100px;
+    }
+}
+
